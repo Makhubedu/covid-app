@@ -1,0 +1,36 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2em;
+    justify-content: center;
+}
+
+.container__card {
+    margin-left: 1em;
+    text-align: center;
+    width: 100%;
+}
+
+.textBig {
+    color: #16e0bd;
+}
+
+.textSmall {
+    color: #5d5757;
+}
+
+.textNormal {
+    font-weight: 900;
+    color: #5d5757;
+}
+
+@media(max-width:800px) {
+    .container {
+        display: flex !important;
+        flex-direction: column !important;
+    }
+    .container__card {
+        margin-top: 1em;
+        width: 90%;
+    }
+}
