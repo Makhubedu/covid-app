@@ -36,7 +36,7 @@ class App extends React.Component {
                     <Chart 
                         data = {data}
                         country = {country}/>
-                    <footer><strong> Made with ❤ By Derrick Makhubedue |<a className="card-text" href="https://derrick-makhubedu.herokuapp.com/" target="_blank">My Porfolio </a> </strong>|</footer>
+                    <footer><strong> Made with ❤ By Derrick Makhubedu |<a className="card-text" href="https://derrick-makhubedu.herokuapp.com/" target="_blank">My Porfolio </a> </strong>|</footer>
                 </div>
             
         )
